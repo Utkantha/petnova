@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/petnova/static/css/main.c2b8483d.css",
+    "main.js": "/petnova/static/js/main.635695b9.js",
+    "static/js/453.ad6eb26e.chunk.js": "/petnova/static/js/453.ad6eb26e.chunk.js",
+    "static/media/hero_pets_bg.jpg": "/petnova/static/media/hero_pets_bg.0f83e784d3d09cf3d520.jpg",
+    "static/media/boo_terrier.jpg": "/petnova/static/media/boo_terrier.0eecc273efc67cc2789f.jpg",
+    "static/media/cute_cat_adoption.jpg": "/petnova/static/media/cute_cat_adoption.15fc628d86f11bfc78cf.jpg",
+    "static/media/bravo_labrador.jpg": "/petnova/static/media/bravo_labrador.35869bcf9b9b53006434.jpg",
+    "static/media/cute_dog_adoption.jpg": "/petnova/static/media/cute_dog_adoption.95ac7b841c180ec670bf.jpg",
+    "static/media/petlogonew.png": "/petnova/static/media/petlogonew.5df162fa54973d63f527.png",
+    "static/media/logo.svg": "/petnova/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/petnova/index.html",
+    "main.c2b8483d.css.map": "/petnova/static/css/main.c2b8483d.css.map",
+    "main.635695b9.js.map": "/petnova/static/js/main.635695b9.js.map",
+    "453.ad6eb26e.chunk.js.map": "/petnova/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2b8483d.css",
+    "static/js/main.635695b9.js"
+  ]
+}
