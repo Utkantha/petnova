@@ -1,0 +1,145 @@
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 16px 0;
+  transition: var(--transition);
+  border-radius: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.navbar.scrolled {
+  padding: 12px 0;
+  background: var(--glass-bg);
+  box-shadow: var(--glass-shadow);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo img {
+  height: 40px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.nav-logo:hover img {
+  transform: rotate(-10deg) scale(1.1);
+}
+
+.nav-logo h2 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: 1.05rem;
+  position: relative;
+  transition: var(--transition);
+}
+
+.nav-menu a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: width 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: var(--primary-color);
+}
+
+.nav-menu a:hover::after,
+.nav-menu a.active-link::after {
+  width: 100%;
+}
+
+.nav-menu a.active-link {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.login-link {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.login-link:hover {
+  color: var(--primary-color);
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.username {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.logout-btn {
+  padding: 8px 20px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-container {
+    padding: 0 16px;
+  }
+  
+  .auth-buttons {
+    gap: 12px;
+  }
+}
