@@ -1,7 +1,7 @@
-# PetPals: Pet Adoption and Care Platform
+# Petnova: Pet Adoption and Care Platform
 
 ## Introduction
-Welcome to PetPals, your go-to Pet Adoption Website, dedicated to facilitating the journey of connecting loving homes with deserving animals. Our platform is designed to support and empower animal welfare organizations, ensuring a smooth and caring adoption process.
+Welcome to Petnova, your go-to Pet Adoption Website, dedicated to facilitating the journey of connecting loving homes with deserving animals. Our platform is designed to support and empower animal welfare organizations, ensuring a smooth and caring adoption process.
 
 ## Features
 -  Pet Searches: Explore a diverse range of adorable pets ready to become a part of your family.
