@@ -64,7 +64,7 @@ const Address = () => {
                     <input id="email" type="text" placeholder="Enter your Mail Address" value={state.email} onChange={handleInputChange} required />
                 </div>
                 <input type="checkbox" required />
-                <p className="inline">I want to subscribe to PetPals</p>
+                <p className="inline">I want to subscribe to Pawfect Match</p>
                 <input  type="submit" value="Confirm" />
             </form>
 

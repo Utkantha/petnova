@@ -16,7 +16,7 @@ export default function Login() {
 
   const onSubmit = (data) => {
     dispatch({ type: LOGIN_REQUEST });
-    axios.post("https://petpals-2z52.onrender.com/users/login", data)
+    axios.post("https://pawfect-match-2z52.onrender.com/users/login", data)
       .then((res) => {
         dispatch({ type: LOGIN_SUCCESS });
         toast({

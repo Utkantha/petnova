@@ -196,7 +196,7 @@ export const AdminHomePage = () => {
     const token = localStorage.getItem("token");
     console.log(token);
     try {
-      const response = await fetch("https://petpals-2z52.onrender.com/users/logout", {
+      const response = await fetch("https://pawfect-match-2z52.onrender.com/users/logout", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`,

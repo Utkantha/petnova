@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-cta-section">
         <div className="footer-cta-content glass-panel">
           <h2>Ready to Find Your New Best Friend?</h2>
-          <p>Join the PetNova community today and get the latest on pet adoption, care tips, and exclusive updates!</p>
+          <p>Join the Pawfect Match community today and get the latest on pet adoption, care tips, and exclusive updates!</p>
           <div className="cta-buttons">
             <Link to="/register" className="btn-modern btn-primary cta-btn">Sign Up Now</Link>
           </div>
@@ -20,8 +20,8 @@ const Footer = () => {
       <div className="footer-links-container">
         <div className="footer-col brand-col">
           <div className="footer-logo">
-            <img src={logo} alt="PetNova Logo" />
-            <h2>PetNova</h2>
+            <img src={logo} alt="Pawfect Match Logo" />
+            <h2>Pawfect Match</h2>
           </div>
           <p className="brand-desc">Uniting loving homes with furry friends. Feed them, don't hit them.</p>
         </div>
@@ -54,7 +54,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="footer-copyright">
-          <p>©2026 PetNova. All rights reserved.</p>
+          <p>©2026 Pawfect Match. All rights reserved.</p>
         </div>
         <div className="footer-socials">
           <a href="#"><FaFacebook /></a>

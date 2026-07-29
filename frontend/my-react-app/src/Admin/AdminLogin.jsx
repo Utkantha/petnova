@@ -16,7 +16,7 @@ export const AdminLogin = () => {
       password:password
     }
 
-    axios.post("https://petpals-2z52.onrender.com/admin/login", obj)
+    axios.post("https://pawfect-match-2z52.onrender.com/admin/login", obj)
     .then((res)=>{
       if(res.status===200){
         // adminLoginFunc()

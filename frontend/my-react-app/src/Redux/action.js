@@ -8,7 +8,7 @@ export const fetchPets = (filters) => {
         console.log("fetching pets....");
         dispatch({ type: GET_PETS_REQUEST });
         try {
-            let url = 'https://petpals-2z52.onrender.com/pets/get?';
+            let url = 'https://pawfect-match-2z52.onrender.com/pets/get?';
             for (const key in filters) {
                 if (filters[key]) {
                     if (Array.isArray(filters[key])) {
@@ -38,7 +38,7 @@ export const GetSingleData = (petid)=>{
         console.log(`getting single pet with id ${petid}`);
         dispatch({type:GET_SINGLE_PET_REQUEST});
         try {
-            let data = (await axios.get(`https://petpals-2z52.onrender.com/pets/get/${petid}`)).data;
+            let data = (await axios.get(`https://pawfect-match-2z52.onrender.com/pets/get/${petid}`)).data;
             dispatch({type:GET_SINGLE_PET_SUCCESS,payload:data.data});
         } catch (error) {
             console.log(error);

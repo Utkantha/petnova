@@ -30,7 +30,7 @@ export const Navbar = () => {
     dispatch({ type: LOGOUT_REQUEST });
     const token = localStorage.getItem("token");
     try {
-      const response = await fetch("https://petpals-2z52.onrender.com/users/logout", {
+      const response = await fetch("https://pawfect-match-2z52.onrender.com/users/logout", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -59,8 +59,8 @@ export const Navbar = () => {
     <header className={`navbar glass-panel ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <Link to="/" className="nav-logo" style={{ textDecoration: 'none' }}>
-          <img src={petlogo} alt="PetPals Logo" />
-          <h2>PetNova</h2>
+          <img src={petlogo} alt="Pawfect Match Logo" />
+          <h2>Pawfect Match</h2>
         </Link>
         
         <nav className="nav-menu">

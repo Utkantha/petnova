@@ -45,7 +45,7 @@ export default function Register() {
       gender: formData.gender,
     };
 
-    axios.post("https://petpals-2z52.onrender.com/users/register", obj)
+    axios.post("https://pawfect-match-2z52.onrender.com/users/register", obj)
       .then((res) => {
         toast({
           title: `${res.data.msg}`,
@@ -74,7 +74,7 @@ export default function Register() {
         <div className="auth-form-col">
           <div className="auth-header">
             <h2>Sign Up</h2>
-            <p>Join PetPals and find your new best friend</p>
+            <p>Join Pawfect Match and find your new best friend</p>
           </div>
 
           <form onSubmit={handleSubmit} className="auth-form">

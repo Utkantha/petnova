@@ -1,7 +1,7 @@
-# Petnova: Pet Adoption and Care Platform
+# Pawfect Match: Pet Adoption and Care Platform
 
 ## Introduction
-Welcome to Petnova, your go-to Pet Adoption Website, dedicated to facilitating the journey of connecting loving homes with deserving animals. Our platform is designed to support and empower animal welfare organizations, ensuring a smooth and caring adoption process.
+Welcome to Pawfect Match, your go-to Pet Adoption Website, dedicated to facilitating the journey of connecting loving homes with deserving animals. Our platform is designed to support and empower animal welfare organizations, ensuring a smooth and caring adoption process.
 
 ## Features
 -  Pet Searches: Explore a diverse range of adorable pets ready to become a part of your family.
@@ -31,8 +31,8 @@ Approve or reject adoption applications based on the organization's policies and
 Frontend | Backend | Fullstack
 
 ## Deplolyed App
-- Frontend: https://petpalscare.netlify.app
-- Backend: https://petpals-2z52.onrender.com
+- Frontend: https://pawfect-matchcare.netlify.app
+- Backend: https://pawfect-match-2z52.onrender.com
 
 ## Directory Structure
 my-app/
